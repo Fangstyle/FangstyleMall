@@ -1,7 +1,7 @@
 /**
  * Created by baocheng on 2017/1/19.
  */
-angular.module('home.route', [])
+angular.module('home.route', ['home.controller'])
   .config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
@@ -10,6 +10,7 @@ angular.module('home.route', [])
         views: {
           'tab-home': {
             templateUrl: 'area/home/home.html',
+            controller: 'HomeCtrl'
           }
         }
       })
