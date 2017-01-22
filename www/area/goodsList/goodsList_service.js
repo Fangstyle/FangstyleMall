@@ -1,7 +1,7 @@
 angular.module('goodsList.service', [])
   .factory('GoodsListFty', function($http,$q) {
     return {
-    /*  // 刷新列表商品列表
+      // 刷新列表商品列表
       refreshGoodsList: function (message) {
         var obj_goodsListData = [
           {
@@ -212,6 +212,6 @@ angular.module('goodsList.service', [])
       },
       deleteById:function(){
         console.log("这是deleteById方法");
-      }*/
+      }
     };
   });
